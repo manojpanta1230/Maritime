@@ -1,0 +1,142 @@
+@import 'base';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: $font-stack;
+    
+}
+.top-header{
+    background-color: $primary-color;
+    color:$text-white ;
+}
+.nav-links{
+    list-style: none;
+   gap:$fixed_gap ;
+   a{
+    text-decoration: none;
+    color: black;
+   }
+}
+.btn-primary{
+    background-color: $secondary-color;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: $fixed_gap - 16 ;
+    &:hover{
+       
+        cursor: pointer;
+    }
+    
+}
+.hero-section {
+  height: 100vh;
+  color: #fff;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("../images/college.png"); /* or url("images/college.png") depending on structure */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.simple{
+    h1{
+        font-weight: bold;
+        font-size: $fixed_gap * 2;
+    }
+    h2{
+        font-size: $fixed_gap  + 12 ;
+        font-weight: bold;
+    }
+    p{
+        font-family: $secondary-font;
+    }
+}
+.hero-position{
+    top: 25%;
+}
+.bottom-hero-section{
+     right: 0;
+    background-color: #163b65;
+    width: 740px;
+    height: 268px;
+    padding: $fixed_gap;
+}
+.program-card{
+    background-color: #FEFEFE;
+   
+}
+.course-section{
+    background-color: $primary-color;
+}
+.journey {
+  height: 50vh;
+  color: #fff;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("../images/journey.png"); /* or url("images/journey.png") depending on structure */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.blog-section{
+    .card{
+        background-color: $card-bg;
+        border-radius: 0%;
+    }
+}
+footer{
+    background-color: $primary-color;
+    color: $text-white;
+    ul{
+        list-style: none;
+      display: flex ;
+      flex-direction: column;
+      gap: $fixed_gap - 22;
+      padding: 0;
+    }
+    
+}
+.testominal-card{
+    background-color: $card-bg;
+    img{
+        border-radius: 50%;
+        height:100px ;
+        width: 100px;
+    }
+}
+.ready{
+    background-color: $primary-color;
+    color: $text-white;
+}
+.finance-card{
+    margin-left: 220px;
+    height: 87px;
+    background-color: rgb(247, 247, 247);
+    padding: 12px;
+    width: 323px;
+    top: 84%;
+    text-align: center;
+
+    
+}
+.courses{
+    background-color: $card-bg;
+}
+.production{
+    background-color: $card-bg;
+}
+.nav-pills .nav-link.active{
+    background-color: $card-bg;
+    color: rgb(201, 131, 131);
+}
+.nav-pills .nav-link{
+    color: rgb(0, 0, 0);
+   
+  
+}

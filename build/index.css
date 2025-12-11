@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.top-header {
+  background-color: #163b65;
+  color: #ffffff;
+}
+
+.nav-links {
+  list-style: none;
+  gap: 32px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-primary {
+  background-color: #f3e20c;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 16px;
+}
+.btn-primary:hover {
+  cursor: pointer;
+}
+
+.hero-section {
+  height: 100vh;
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/college.png"); /* or url("images/college.png") depending on structure */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.simple h1 {
+  font-weight: bold;
+  font-size: 64px;
+}
+.simple h2 {
+  font-size: 44px;
+  font-weight: bold;
+}
+.simple p {
+  font-family: "Bitter", serif;
+}
+
+.hero-position {
+  top: 25%;
+}
+
+.bottom-hero-section {
+  right: 0;
+  background-color: #163b65;
+  width: 740px;
+  height: 268px;
+  padding: 32px;
+}
+
+.program-card {
+  background-color: #FEFEFE;
+}
+
+.course-section {
+  background-color: #163b65;
+}
+
+.journey {
+  height: 50vh;
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/journey.png"); /* or url("images/journey.png") depending on structure */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.blog-section .card {
+  background-color: #F5F5F5;
+  border-radius: 0%;
+}
+
+footer {
+  background-color: #163b65;
+  color: #ffffff;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+
+.testominal-card {
+  background-color: #F5F5F5;
+}
+.testominal-card img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.ready {
+  background-color: #163b65;
+  color: #ffffff;
+}
+
+.finance-card {
+  margin-left: 220px;
+  height: 87px;
+  background-color: rgb(247, 247, 247);
+  padding: 12px;
+  width: 323px;
+  top: 84%;
+  text-align: center;
+}
+
+.courses {
+  background-color: #F5F5F5;
+}
+
+.production {
+  background-color: #F5F5F5;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #F5F5F5;
+  color: rgb(201, 131, 131);
+}
+
+.nav-pills .nav-link {
+  color: rgb(0, 0, 0);
+}
+
+/*# sourceMappingURL=index.css.map */
