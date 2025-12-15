@@ -157,3 +157,8 @@ footer{
         margin: 0 auto;
     }
 }
+@media (max-width:576px) {
+    .simple h2{
+        font-size: $fixed_gap - 8 ;
+    }
+}

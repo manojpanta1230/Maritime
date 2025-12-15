@@ -161,5 +161,10 @@ footer ul {
     margin: 0 auto;
   }
 }
+@media (max-width: 576px) {
+  .simple h2 {
+    font-size: 24px;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
