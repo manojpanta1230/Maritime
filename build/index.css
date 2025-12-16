@@ -76,7 +76,7 @@ body {
 }
 
 .journey {
-  height: 50vh;
+  height: 90vh;
   color: #fff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/journey.png"); /* or url("images/journey.png") depending on structure */
   background-size: cover;
@@ -116,12 +116,8 @@ footer ul {
 }
 
 .finance-card {
-  margin-left: 220px;
-  height: 87px;
   background-color: rgb(247, 247, 247);
-  padding: 12px;
-  width: 323px;
-  top: 84%;
+  padding: 16px;
   text-align: center;
 }
 
@@ -140,6 +136,43 @@ footer ul {
 
 .nav-pills .nav-link {
   color: rgb(0, 0, 0);
+}
+
+.map-background {
+  background-color: #163b65;
+  float: right;
+  width: 11%;
+}
+
+.nav-links li:last-child {
+  display: none;
+}
+
+@media (max-width: 1124px) {
+  .nav-links li:not(:last-child) {
+    display: none;
+  }
+  .nav-links li:last-child {
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 576px) {
+  .simple h1 {
+    font-size: 36px;
+  }
+  .simple h2 {
+    font-size: 24px;
+  }
+  .simple .no-padding {
+    padding: 0 !important;
+  }
+  .simple .hero-position {
+    top: 15%;
+  }
+}
+.footer-heading p {
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=index.css.map */

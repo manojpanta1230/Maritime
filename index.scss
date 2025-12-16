@@ -75,7 +75,7 @@ body{
     background-color: $primary-color;
 }
 .journey {
-  height: 50vh;
+  height: 90vh;
   color: #fff;
   background-image:
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
@@ -115,12 +115,12 @@ footer{
     color: $text-white;
 }
 .finance-card{
-    margin-left: 220px;
-    height: 87px;
+  
+   
     background-color: rgb(247, 247, 247);
-    padding: 12px;
-    width: 323px;
-    top: 84%;
+  
+     padding: $font_size;
+ 
     text-align: center;
 
     
@@ -139,4 +139,48 @@ footer{
     color: rgb(0, 0, 0);
    
   
+}
+.map-background{
+    background-color: $primary-color;
+     float: right;  
+     width: 11%;
+}
+   .nav-links li:last-child {
+      display: none;
+    }
+@media (max-width: 1124px) {
+    .nav-links li:not(:last-child) {
+        display: none;
+    }
+    .nav-links li:last-child {
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media (max-width:576px) {
+    .simple{
+        h1{
+            font-size: $font_size +20 ;
+        }
+     h2{
+        font-size: $fixed_gap - 8 ;
+    }
+   
+    .no-padding{
+    padding: 0 !important;
+}
+.hero-position{
+    top: 15%;
+    }
+}
+}
+
+
+.footer-heading{
+    p{
+        font-size: 20px;
+    }
+}
+.hero-section{
+    
 }

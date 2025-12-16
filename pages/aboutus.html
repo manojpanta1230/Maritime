@@ -40,14 +40,14 @@
    
         <!-- Top Header Start -->
     <div class="top-header ">
-
-        <div class="row p-3">
+  <div class="p-3">
+        <div class="row ">
 
             <div class="col-md-5 text-center py-2">
 
-                <i class="fa fa-phone"></i> +123 456 7890 &nbsp; &nbsp;
-                <i class="fa fa-user"> </i>Student Login &nbsp; &nbsp;
-                <i class="fa-brands fa-duolingo"> </i>Duolingo English Test &nbsp; &nbsp;
+                <i class="fa fa-phone"></i>  &nbsp;+123 456 7890 &nbsp; &nbsp;
+                <i class="fa fa-user"> </i>  &nbsp;Student Login &nbsp; &nbsp;
+                <i class="fa-brands fa-duolingo"> </i>  &nbsp; Duolingo English Test &nbsp; &nbsp;
             </div>
 
 
@@ -60,10 +60,11 @@
             </div>
         </div>
     </div>
+    </div>
 
     <!--Header-->
-    <nav>
-        <div class="row p-3">
+    <nav class="p-3">
+        <div class="row ">
             <div class="col-5">
                 <div class="logo text-center">
                     <img src="../images/logo.png" alt="Maritime Business Logo">
@@ -78,7 +79,12 @@
                     <li><a href="#">Financial Aid</a></li>
                     <li><a href="#">Contact </a></li>
                     <li><a href="#">Blogs </a></li>
-                    <li>
+                       <li>
+                        <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon "><i class="fa fa-bars"></i></span>
+                        </button>
 
                     </li>
                 </ul>
@@ -86,12 +92,50 @@
         </div>
 
     </nav>
+            <nav class="navbar">
+  <div class="container-fluid">
+  
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
     <div class="about-us position-relative simple">
         <img src="../images/aboutus.png" alt="" class="w-100"> 
-        <h2 class="position-absolute text-light bottom-0">About Us</p>
+        <h2 class="position-absolute text-light bottom-0 p-5">About Us</h2>
     </div>
-
-    <div class="row p-5 ">
+    <div class="p-5">
+    <div class="row  ">
         <div class="col-md-6 simple">
               <h2> Why Choose Maritime Business College?</h2>
               <p>Founded in 1899, Maritime Business College has provided advanced career training to thousands of students in Nova Scotia.</p>
@@ -109,27 +153,33 @@
             </div>
         </div>
         <div class="col-md-6 ">
-  <img src="../images/whychoose.png" alt="" >
+  <img src="../images/whychoose.png" alt=""  class="w-100">
         </div>
     </div>
-
+</div>
  
 
-    <div class="row p-5 ready ">
-        <div class="col-md-5">
+    <div class="row  ready ">
+  
+        <div class="col-md-5 p-0">
       <img src="../images/readyfor.png" alt="" class="w-100">
         </div>
-        <div class="col-md-7 simple">
+        
+        <div class="col-md-7 simple p-5 ">
+            
           <h2> Ready for Job Market</h2>
           <p>Following the completion of their program MBC graduates are prepared to enter the job market. In addition to the core skills relevant to their program, students also learn how to market themselves, which contributes to their success in the workplace.</p>
           <h2>Graduate in Just 14 Months or Less!*</h2>
           <p>Students in most programs attend classes for 12 consecutive months followed by two months of on-the-job training to complete their course. Students have a winter break, spring break, summer break and are off statutory holidays during this period.</p>
           <p>Take a Diploma Program at Maritime Business College, and receive your Diploma in just 14 months!*</p>
           <p>* This does not include the 2D/3D Animations and Digital Arts program, which is 24 months in length.</p>
-        </div>
-    </div>
+          </div>
+          </div>
+    
+       
+  
    <div class="agreement p-5">
-        <div class="row p-5">
+        <div class="row ">
            
             <div class="col-md-6 simple">
               <h2> Articulation Agreements with Yorkville University</h2>
@@ -140,7 +190,8 @@
       <img src="../images/agreement.png" alt="" class="w-100">
             </div>
         </div>
-          <div class="row p-3">
+        <div class="p-5">
+          <div class="row ">
             <div class="col-md-3"></div>
                     <div class="col-md-3">
                          <h2><span class="counter">90</span>+</h2>
@@ -157,6 +208,7 @@
                         <p>Of graduates started a new job</p>
                     </div>
                 </div>
+    </div>
     </div>
         <!-- Journey Section Start -->
     <div class="journey p-5 text-center">

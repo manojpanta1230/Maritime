@@ -40,15 +40,15 @@
 
 <body>
     <!-- Top Header Start -->
-    <div class="top-header ">
+     <div class="top-header ">
 
         <div class="row p-3">
 
             <div class="col-md-5 text-center py-2">
 
-                <i class="fa fa-phone"></i> +123 456 7890 &nbsp; &nbsp;
-                <i class="fa fa-user"> </i>Student Login &nbsp; &nbsp;
-                <i class="fa-brands fa-duolingo"> </i>Duolingo English Test &nbsp; &nbsp;
+                <i class="fa fa-phone"></i>  &nbsp;+123 456 7890 &nbsp; &nbsp;
+                <i class="fa fa-user"> </i>  &nbsp;Student Login &nbsp; &nbsp;
+                <i class="fa-brands fa-duolingo"> </i>  &nbsp; Duolingo English Test &nbsp; &nbsp;
             </div>
 
 
@@ -80,6 +80,11 @@
                     <li><a href="#">Contact </a></li>
                     <li><a href="#">Blogs </a></li>
                     <li>
+                        <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon "><i class="fa fa-bars"></i></span>
+                        </button>
 
                     </li>
                 </ul>
@@ -87,11 +92,51 @@
         </div>
 
     </nav>
-    <div class="about-us position-relative simple">
-        <img src="../images/aboutus.png" alt="" class="w-100">
-        <h2 class="position-absolute text-light bottom-0">Financial Aid</h2>
+
+            <nav class="navbar">
+  <div class="container-fluid">
+  
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-    <div class="row p-5 simple">
+  </div>
+</nav>
+       <div class="about-us position-relative simple">
+        <img src="../images/aboutus.png" alt="" class="w-100"> 
+        <h2 class="position-absolute text-light bottom-0 p-5">College Status</h2>
+    </div>
+    <div class="p-5">
+    <div class="row simple">
         <div class="col-md-6">
             <h2>We Believe That A College Education Is The Most Important Investment That You’ll Ever Make!</h2>
             <p>For most people, the process of financing your college education is an unknown process. Where do you
@@ -108,10 +153,10 @@
                 the rewards last a lifetime.</p>
         </div>
         <div class="col-md-6">
-            <img src="../images/finance .png" alt="">
+            <img src="../images/finance .png" alt="" class="w-100">
         </div>
     </div>
-
+</div>
     <section class="simple p-5">
         <h2>Our Financial Administrator will help you explore:</h2>
     </section>

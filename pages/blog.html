@@ -37,19 +37,19 @@
     <link rel="stylesheet" href="../build/index.css">
 </head>
 <body>
-        <div class="top-header ">
+     <div class="top-header p-2 ">
 
-        <div class="row p-3">
+        <div class="row ">
 
             <div class="col-md-5 text-center py-2">
 
-                <i class="fa fa-phone"></i> +123 456 7890 &nbsp; &nbsp;
-                <i class="fa fa-user"> </i>Student Login &nbsp; &nbsp;
-                <i class="fa-brands fa-duolingo"> </i>Duolingo English Test &nbsp; &nbsp;
+                <i class="fa fa-phone"></i>  &nbsp;+123 456 7890 &nbsp; &nbsp;
+                <i class="fa fa-user"> </i>  &nbsp;Student Login &nbsp; &nbsp;
+                <i class="fa-brands fa-duolingo"> </i>  &nbsp; Duolingo English Test &nbsp; &nbsp;
             </div>
 
 
-            <div class="col-md-7 text-end py-2 ">
+            <div class="col-md-7 text-center  py-2 ">
 
                 <div class="search-bar">
                     <i class="fa fa-search"></i>
@@ -60,8 +60,9 @@
     </div>
 
     <!--Header-->
-    <nav>
-        <div class="row p-3">
+    <!--Header-->
+    <nav class="p-3">
+        <div class="row ">
             <div class="col-5">
                 <div class="logo text-center">
                     <img src="../images/logo.png" alt="Maritime Business Logo">
@@ -69,38 +70,249 @@
             </div>
             <div class="col-7  mt-3 ">
                 <ul class="nav-links d-flex justify-content-center align-items-center">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="">Home</a></li>
                     <li><a href="#">Programs</a></li>
-                    <li><a href="#">MBC</a></li>
-                    <li><a href="#">Campus Status</a></li>
-                    <li><a href="#">Financial Aid</a></li>
-                    <li><a href="#">Contact </a></li>
-                    <li><a href="#">Blogs </a></li>
-                    <li>
+                    <li><a href="aboutus.html">MBC</a></li>
+                    <li><a href="college_status_page.html">Campus Status</a></li>
+                    <li><a href="finance_aid.html">Financial Aid</a></li>
+                    <li><a href="contact_us.html">Contact </a></li>
+                    <li><a href="blog.html">Blogs </a></li>
+                    <li >
+                        <a class="navbar-toggler fw-bold" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon "><i class="fa fa-bars"></i></span>
+                    </a>
 
                     </li>
+                
                 </ul>
+
             </div>
         </div>
 
     </nav>
+            <nav class="navbar ">
+  <div class="container-fluid">
+  
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
     <div class="about-us position-relative simple">
         <img src="../images/aboutus.png" alt="" class="w-100"> 
-        <h2 class="position-absolute text-light bottom-0">Blog</h2>
+        <h2 class="position-absolute text-light bottom-0 p-5">Blog</h2>
     </div>
-    <div class="blog-section p-5">
+   <div class="blog-section p-5">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 simple">
-                  
+            <div class="row ">
+                <div class="col-md-6 simple p-2">
+                    <p>Blogs</p>
                     <h3>MBC Blogs</h3>
                 </div>
-                
+                <div class="col-md-6 text-start simple ">
+
+                    <div class="btn btn-secondary">View all</div>
+                </div>
             </div>
-            <div class="row">
+            <div class="row  mt-4 gy-3">
                 <div class="col-md-3">
-                    <div class="card shadow rounded-4 border-0 p-0" style="max-width: 350px;">
-                        <img src="../images//college.png" class="card-img-top rounded-top-4" alt="">
+                    <div class="card  border-0 p-0" style="max-width: 350px;">
+                        <img src="../images/college.png" class="card-img-top " alt="">
+
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center align-items-center mb-3 text-muted small gap-4">
+                                <i class="fa fa-user "></i><span>Admin</span>
+                                <i class="fa fa-calendar-days "></i><span>20 Jan 2024</span>
+                            </div>
+                            <h5 class="card-title fw-bold mb-2">How to Choose the Right Digital Art Course for Your
+                                Goals in 2025</h5>
+
+                            <p>Read More <i class="fa fa-arrow-right"></i></p>
+
+
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-3">
+                    <div class="card  border-0 p-0" style="max-width: 350px;">
+                        <img src="../images/college.png" class="card-img-top " alt="">
+
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center align-items-center mb-3 text-muted small gap-4">
+                                <i class="fa fa-user "></i><span>Admin</span>
+                                <i class="fa fa-calendar-days "></i><span>20 Jan 2024</span>
+                            </div>
+                            <h5 class="card-title fw-bold mb-2">How to Choose the Right Digital Art Course for Your
+                                Goals in 2025</h5>
+
+                            <p>Read More <i class="fa fa-arrow-right"></i></p>
+
+
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-3">
+                    <div class="card  border-0 p-0" style="max-width: 350px;">
+                        <img src="../images/college.png" class="card-img-top " alt="">
+
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center align-items-center mb-3 text-muted small gap-4">
+                                <i class="fa fa-user "></i><span>Admin</span>
+                                <i class="fa fa-calendar-days "></i><span>20 Jan 2024</span>
+                            </div>
+                            <h5 class="card-title fw-bold mb-2">How to Choose the Right Digital Art Course for Your
+                                Goals in 2025</h5>
+
+                            <p>Read More <i class="fa fa-arrow-right"></i></p>
+
+
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-3">
+                    <div class="card  border-0 p-0" style="max-width: 350px;">
+                        <img src="../images/college.png" class="card-img-top " alt="">
+
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center align-items-center mb-3 text-muted small gap-4">
+                                <i class="fa fa-user "></i><span>Admin</span>
+                                <i class="fa fa-calendar-days "></i><span>20 Jan 2024</span>
+                            </div>
+                            <h5 class="card-title fw-bold mb-2">How to Choose the Right Digital Art Course for Your
+                                Goals in 2025</h5>
+
+                            <p>Read More <i class="fa fa-arrow-right"></i></p>
+
+
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-3">
+                    <div class="card  border-0 p-0" style="max-width: 350px;">
+                        <img src="../images/college.png" class="card-img-top " alt="">
+
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center align-items-center mb-3 text-muted small gap-4">
+                                <i class="fa fa-user "></i><span>Admin</span>
+                                <i class="fa fa-calendar-days "></i><span>20 Jan 2024</span>
+                            </div>
+                            <h5 class="card-title fw-bold mb-2">How to Choose the Right Digital Art Course for Your
+                                Goals in 2025</h5>
+
+                            <p>Read More <i class="fa fa-arrow-right"></i></p>
+
+
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-3">
+                    <div class="card  border-0 p-0" style="max-width: 350px;">
+                        <img src="../images/college.png" class="card-img-top " alt="">
+
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center align-items-center mb-3 text-muted small gap-4">
+                                <i class="fa fa-user "></i><span>Admin</span>
+                                <i class="fa fa-calendar-days "></i><span>20 Jan 2024</span>
+                            </div>
+                            <h5 class="card-title fw-bold mb-2">How to Choose the Right Digital Art Course for Your
+                                Goals in 2025</h5>
+
+                            <p>Read More <i class="fa fa-arrow-right"></i></p>
+
+
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-3">
+                    <div class="card  border-0 p-0" style="max-width: 350px;">
+                        <img src="../images/college.png" class="card-img-top " alt="">
+
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center align-items-center mb-3 text-muted small gap-4">
+                                <i class="fa fa-user "></i><span>Admin</span>
+                                <i class="fa fa-calendar-days "></i><span>20 Jan 2024</span>
+                            </div>
+                            <h5 class="card-title fw-bold mb-2">How to Choose the Right Digital Art Course for Your
+                                Goals in 2025</h5>
+
+                            <p>Read More <i class="fa fa-arrow-right"></i></p>
+
+
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-3">
+                    <div class="card  border-0 p-0" style="max-width: 350px;">
+                        <img src="../images/college.png" class="card-img-top " alt="">
+
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center align-items-center mb-3 text-muted small gap-4">
+                                <i class="fa fa-user "></i><span>Admin</span>
+                                <i class="fa fa-calendar-days "></i><span>20 Jan 2024</span>
+                            </div>
+                            <h5 class="card-title fw-bold mb-2">How to Choose the Right Digital Art Course for Your
+                                Goals in 2025</h5>
+
+                            <p>Read More <i class="fa fa-arrow-right"></i></p>
+
+
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-3">
+                    <div class="card  border-0 p-0" style="max-width: 350px;">
+                        <img src="../images/college.png" class="card-img-top " alt="">
+
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center align-items-center mb-3 text-muted small gap-4">
+                                <i class="fa fa-user "></i><span>Admin</span>
+                                <i class="fa fa-calendar-days "></i><span>20 Jan 2024</span>
+                            </div>
+                            <h5 class="card-title fw-bold mb-2">How to Choose the Right Digital Art Course for Your
+                                Goals in 2025</h5>
+
+                            <p>Read More <i class="fa fa-arrow-right"></i></p>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card  border-0 p-0" style="max-width: 350px;">
+                        <img src="../images/college.png" class="card-img-top " alt="">
 
                         <div class="card-body">
                             <div class="d-flex justify-content-center align-items-center mb-3 text-muted small gap-4">
@@ -117,8 +329,8 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card shadow rounded-4 border-0 p-0" style="max-width: 350px;">
-                        <img src="../images//college.png" class="card-img-top rounded-top-4" alt="">
+                    <div class="card  border-0 p-0" style="max-width: 350px;">
+                        <img src="../images/college.png" class="card-img-top " alt="">
 
                         <div class="card-body">
                             <div class="d-flex justify-content-center align-items-center mb-3 text-muted small gap-4">
@@ -135,152 +347,8 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card shadow rounded-4 border-0 p-0" style="max-width: 350px;">
-                        <img src="../images//college.png" class="card-img-top rounded-top-4" alt="">
-
-                        <div class="card-body">
-                            <div class="d-flex justify-content-center align-items-center mb-3 text-muted small gap-4">
-                                <i class="fa fa-user "></i><span>Admin</span>
-                                <i class="fa fa-calendar-days "></i><span>20 Jan 2024</span>
-                            </div>
-                            <h5 class="card-title fw-bold mb-2">How to Choose the Right Digital Art Course for Your
-                                Goals in 2025</h5>
-
-                            <p>Read More <i class="fa fa-arrow-right"></i></p>
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card shadow rounded-4 border-0 p-0" style="max-width: 350px;">
-                        <img src="../images//college.png" class="card-img-top rounded-top-4" alt="">
-
-                        <div class="card-body">
-                            <div class="d-flex justify-content-center align-items-center mb-3 text-muted small gap-4">
-                                <i class="fa fa-user "></i><span>Admin</span>
-                                <i class="fa fa-calendar-days "></i><span>20 Jan 2024</span>
-                            </div>
-                            <h5 class="card-title fw-bold mb-2">How to Choose the Right Digital Art Course for Your
-                                Goals in 2025</h5>
-
-                            <p>Read More <i class="fa fa-arrow-right"></i></p>
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card shadow rounded-4 border-0 p-0" style="max-width: 350px;">
-                        <img src="../images//college.png" class="card-img-top rounded-top-4" alt="">
-
-                        <div class="card-body">
-                            <div class="d-flex justify-content-center align-items-center mb-3 text-muted small gap-4">
-                                <i class="fa fa-user "></i><span>Admin</span>
-                                <i class="fa fa-calendar-days "></i><span>20 Jan 2024</span>
-                            </div>
-                            <h5 class="card-title fw-bold mb-2">How to Choose the Right Digital Art Course for Your
-                                Goals in 2025</h5>
-
-                            <p>Read More <i class="fa fa-arrow-right"></i></p>
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card shadow rounded-4 border-0 p-0" style="max-width: 350px;">
-                        <img src="../images//college.png" class="card-img-top rounded-top-4" alt="">
-
-                        <div class="card-body">
-                            <div class="d-flex justify-content-center align-items-center mb-3 text-muted small gap-4">
-                                <i class="fa fa-user "></i><span>Admin</span>
-                                <i class="fa fa-calendar-days "></i><span>20 Jan 2024</span>
-                            </div>
-                            <h5 class="card-title fw-bold mb-2">How to Choose the Right Digital Art Course for Your
-                                Goals in 2025</h5>
-
-                            <p>Read More <i class="fa fa-arrow-right"></i></p>
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card shadow rounded-4 border-0 p-0" style="max-width: 350px;">
-                        <img src="../images//college.png" class="card-img-top rounded-top-4" alt="">
-
-                        <div class="card-body">
-                            <div class="d-flex justify-content-center align-items-center mb-3 text-muted small gap-4">
-                                <i class="fa fa-user "></i><span>Admin</span>
-                                <i class="fa fa-calendar-days "></i><span>20 Jan 2024</span>
-                            </div>
-                            <h5 class="card-title fw-bold mb-2">How to Choose the Right Digital Art Course for Your
-                                Goals in 2025</h5>
-
-                            <p>Read More <i class="fa fa-arrow-right"></i></p>
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card shadow rounded-4 border-0 p-0" style="max-width: 350px;">
-                        <img src="../images//college.png" class="card-img-top rounded-top-4" alt="">
-
-                        <div class="card-body">
-                            <div class="d-flex justify-content-center align-items-center mb-3 text-muted small gap-4">
-                                <i class="fa fa-user "></i><span>Admin</span>
-                                <i class="fa fa-calendar-days "></i><span>20 Jan 2024</span>
-                            </div>
-                            <h5 class="card-title fw-bold mb-2">How to Choose the Right Digital Art Course for Your
-                                Goals in 2025</h5>
-
-                            <p>Read More <i class="fa fa-arrow-right"></i></p>
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card shadow rounded-4 border-0 p-0" style="max-width: 350px;">
-                        <img src="../images//college.png" class="card-img-top rounded-top-4" alt="">
-
-                        <div class="card-body">
-                            <div class="d-flex justify-content-center align-items-center mb-3 text-muted small gap-4">
-                                <i class="fa fa-user "></i><span>Admin</span>
-                                <i class="fa fa-calendar-days "></i><span>20 Jan 2024</span>
-                            </div>
-                            <h5 class="card-title fw-bold mb-2">How to Choose the Right Digital Art Course for Your
-                                Goals in 2025</h5>
-
-                            <p>Read More <i class="fa fa-arrow-right"></i></p>
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card shadow rounded-4 border-0 p-0" style="max-width: 350px;">
-                        <img src="../images//college.png" class="card-img-top rounded-top-4" alt="">
-
-                        <div class="card-body">
-                            <div class="d-flex justify-content-center align-items-center mb-3 text-muted small gap-4">
-                                <i class="fa fa-user "></i><span>Admin</span>
-                                <i class="fa fa-calendar-days "></i><span>20 Jan 2024</span>
-                            </div>
-                            <h5 class="card-title fw-bold mb-2">How to Choose the Right Digital Art Course for Your
-                                Goals in 2025</h5>
-
-                            <p>Read More <i class="fa fa-arrow-right"></i></p>
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card shadow rounded-4 border-0 p-0" style="max-width: 350px;">
-                        <img src="../images//college.png" class="card-img-top rounded-top-4" alt="">
+                    <div class="card  border-0 p-0" style="max-width: 350px;">
+                        <img src="../images/college.png" class="card-img-top " alt="">
 
                         <div class="card-body">
                             <div class="d-flex justify-content-center align-items-center mb-3 text-muted small gap-4">
@@ -298,13 +366,38 @@
                 </div>
 
             </div>
-                  </div>
+            <script>
+                $('.programs-carousel').owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    responsiveClass: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            nav: true
+                        },
+                        600: {
+                            items: 3,
+                            nav: false
+                        },
+                        1000: {
+                            items: 3,
+
+                            loop: true
+                        }
+                    }
+                })
+
+
+
+            </script>
+        </div>
 
     </div>
 
         <footer class="p-5">
  
-    <div class="row justify-content-center align-items-center p-5 ">
+    <div class="row justify-content-center align-items-center  ">
         <div class="col-md-3 ">
        <img src="../images//mbc white.png" alt="">
        <p> Maritime Centre, Mezz M03, 1505 Barrington St, Halifax, NS, B3J 3K5</p>
