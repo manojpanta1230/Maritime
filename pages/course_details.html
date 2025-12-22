@@ -37,58 +37,74 @@
     <link rel="stylesheet" href="../build/index.css">
 </head>
 <body>
-   <div class="top-header ">
+<div class="top-header">
+  <div class="container">
+    <div class="row align-items-center py-2">
 
-        <div class="row p-3">
+      <!-- Left Section -->
+      <div class="col-12 col-md-7 text-center text-md-start mb-2 mb-md-0">
+        <span class="me-3 d-inline-block">
+          <i class="fa fa-phone"></i> +123 456 7890
+        </span>
 
-            <div class="col-md-5 text-center py-2">
+        <span class="me-3 d-inline-block">
+          <i class="fa fa-user"></i> Student Login
+        </span>
 
-                <i class="fa fa-phone"></i>  &nbsp;+123 456 7890 &nbsp; &nbsp;
-                <i class="fa fa-user"> </i>  &nbsp;Student Login &nbsp; &nbsp;
-                <i class="fa-brands fa-duolingo"> </i>  &nbsp; Duolingo English Test &nbsp; &nbsp;
-            </div>
+        <span class="d-inline-block">
+          <i class="fa-brands fa-duolingo"></i> Duolingo English Test
+        </span>
+      </div>
 
-
-            <div class="col-md-7 text-end py-2 ">
-
-                <div class="search-bar">
-                    <i class="fa fa-search"></i>
-                </div>
-
-            </div>
+      <!-- Right Section -->
+      <div class="col-12 col-md-5 text-center text-md-end">
+        <div class="search-bar d-inline-flex align-items-center">
+          <i class="fa fa-search"></i>
         </div>
+      </div>
+
     </div>
+  </div>
+</div>
 
     <!--Header-->
-    <nav>
-        <div class="row p-3">
-            <div class="col-5">
-                <div class="logo text-center">
-                    <img src="../images/logo.png" alt="Maritime Business Logo">
-                </div>
-            </div>
-            <div class="col-7  mt-3 ">
-                <ul class="nav-links d-flex justify-content-center align-items-center">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Programs</a></li>
-                    <li><a href="#">MBC</a></li>
-                    <li><a href="#">Campus Status</a></li>
-                    <li><a href="#">Financial Aid</a></li>
-                    <li><a href="#">Contact </a></li>
-                    <li><a href="#">Blogs </a></li>
-                      <li>
-                        <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas"
-                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon "><i class="fa fa-bars"></i></span>
-                        </button>
+  <nav class="p-3">
+  <div class="container-fluid">
+    <div class="row align-items-center">
 
-                    </li>
-                </ul>
-            </div>
+      <!-- Logo -->
+      <div class="col-6 col-md-5 text-start text-md-center">
+        <div class="logo">
+          <img src="../images/logo.png" alt="Maritime Business Logo" class="img-fluid">
         </div>
+      </div>
 
-    </nav>
+      <!-- Menu / Toggle -->
+      <div class="col-6 col-md-7">
+        <ul class="nav-links d-flex justify-content-end justify-content-md-center align-items-center m-0 p-0">
+          
+          <!-- Desktop Links -->
+         <li class="d-none d-md-block"><a href="index.html">Home</a></li>
+          <li class="d-none d-md-block"><a href="#">Programs</a></li>
+          <li class="d-none d-md-block"><a href="aboutus.html">MBC</a></li>
+          <li class="d-none d-md-block"><a href="college_status_page.html">Campus Status</a></li>
+          <li class="d-none d-md-block"><a href="finance_aid.html">Financial Aid</a></li>
+          <li class="d-none d-md-block"><a href="contact_us.html">Contact</a></li>
+          <li class="d-none d-md-block"><a href="blog.html">Blogs</a></li>
+          <!-- Mobile Toggle -->
+          <li class="d-md-none">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar">
+              <i class="fa fa-bars"></i>
+            </button>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</nav>
             <nav class="navbar ">
   <div class="container-fluid">
   
@@ -812,62 +828,63 @@
 </div>
 
 
+    <!-- Footer Start -->
     <footer class="p-5">
- 
-    <div class="row justify-content-center align-items-center p-5 ">
-        <div class="col-md-3 ">
-       <img src="../images//mbc white.png" alt="">
-       <p> Maritime Centre, Mezz M03, 1505 Barrington St, Halifax, NS, B3J 3K5</p>
-       <span> Local: 1-902-405-0710</span>
+
+        <div class="row justify-content-center align-items-center p-5 ">
+            <div class="col-md-3 ">
+                <img src="../images//mbc white.png" alt="">
+                <p> Maritime Centre, Mezz M03, 1505 Barrington St, Halifax, NS, B3J 3K5</p>
+                <span> Local: 1-902-405-0710</span>
+            </div>
+            <div class="col-md-3">
+                <p class="footer-p"> Programs</p>
+                <ul>
+                    <li>2D-3D Animation & Digital Arts</li>
+                    <li>Business Administration</li>
+                    <li>Computer Networking & IT Security</li>
+                    <li>Cybersecurity</li>
+                    <li>Graphic Design & Web Development</li>
+                    <li>Human Resource Management</li>
+                    <li>International Business Management</li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <p class="footer-p"> Main Navigation</p>
+                <ul>
+                    <li>Home</li>
+                    <li>Programs</li>
+                    <li>MBC</li>
+                    <li>Campus Status</li>
+                    <li>Financial Aid</li>
+                    <li>Contact </li>
+                    <li>Blogs </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <p class="footer-p">Quick Links</p>
+                <ul>
+                    <li>About MBC</li>
+                    <li>Admissions</li>
+                    <li>Academic Calendar</li>
+                    <li>Student Services</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Use</li>
+                    <li>Site Map</li>
+                </ul>
+            </div>
         </div>
-        <div class="col-md-3">
-        <p> Programs</p>
-        <ul>
-            <li>2D-3D Animation & Digital Arts</li>
-            <li>Business Administration</li>
-            <li>Computer Networking & IT Security</li>
-            <li>Cybersecurity</li>
-            <li>Graphic Design & Web Development</li>
-            <li>Human Resource Management</li>
-            <li>International Business Management</li>
-        </ul>
-    </div>
-        <div class="col-md-2">
- <p> Main Navigation</p>
- <ul >
-            <li>Home</li>
-            <li>Programs</li>
-            <li>MBC</li>
-            <li>Campus Status</li>
-            <li>Financial Aid</li>
-            <li>Contact </li>
-            <li>Blogs </li>
- </ul>
-        </div>
-        <div class="col-md-4">
-            <p>Quick Links</p>
-            <ul>
-                <li>About MBC</li>
-                <li>Admissions</li>
-                <li>Academic Calendar</li>
-                <li>Student Services</li>
-                <li>Privacy Policy</li>
-                <li>Terms of Use</li>
-                <li>Site Map</li>
-            </ul>
-        </div>
-    </div>
-   
-    <hr>
-    <div class="copyright ">
-        <div class="row">
-            <div class="col-md-6 text-center">
-        <p>@ 2024 Maritime Business College. All Rights Reserved.</p>
-        </div>
-        <div class="col-md-6 text-end">
-         <p >Privacy Policy</p>
-        </div>
-        </div>
-</footer>
+
+        <hr>
+        <div class="copyright ">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <p>@ 2024 Maritime Business College. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <p>Privacy Policy</p>
+                </div>
+            </div>
+    </footer>
 </body>
 </html>
