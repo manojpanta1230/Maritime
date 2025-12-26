@@ -68,7 +68,7 @@ body {
 }
 
 .program-card {
-  background-color: #FEFEFE;
+  background-color: white;
 }
 
 .course-section {
@@ -166,9 +166,6 @@ footer ul {
   }
   .simple .no-padding {
     padding: 0 !important;
-  }
-  .simple .hero-position {
-    top: 15%;
   }
 }
 .footer-heading p {
